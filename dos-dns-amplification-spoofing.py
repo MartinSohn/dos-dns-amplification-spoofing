@@ -30,6 +30,8 @@ while True:
 		print("sent 25 packets")
 
 	sourcePort += 1
+	if (sourcePort > 65535)
+		sourcePort = random.randint(49152,65535)
 	ipId += 1
 	dnsId += 1
 
