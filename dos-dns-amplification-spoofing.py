@@ -13,6 +13,7 @@ sourcePort = random.randint(49152,65535)
 ipId = random.randint(0,0xffff)
 dnsId = random.randint(0,0xffff)
 
+# threading? lul
 while True:
 	# create layers
 	udp = UDP(sport=sourcePort)
